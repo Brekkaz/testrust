@@ -4,7 +4,7 @@ services:
   app:
     build: ./app
     ports: 
-      - "3001:3001"
+      - "9900:9900"
     volumes:
       - ./app:/usr/src/app
     links:
